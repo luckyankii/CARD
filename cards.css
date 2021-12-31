@@ -75,3 +75,18 @@ button:hover {
     margin: 20px;
   }
 }
+@media (max-width: 900px) {
+  .main2 {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .main2 {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    margin: 20px;
+  }
+}
